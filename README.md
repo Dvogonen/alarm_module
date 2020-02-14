@@ -5,4 +5,4 @@ The alarm modules are based on the popular ESP8266 controllers that have a built
 The modules connect over WiFi and talk to a cloud based MQTT server.
 The alarm logic module is built using Python.
 
-The purpose of the project has not been to implement a fully ifunctional alarm system, but rather to investigate if the technologis in use could be used.
+The purpose of the project has not been to implement a fully ifunctional alarm system, but rather to investigate if the tested technologies could be used in a real system.
