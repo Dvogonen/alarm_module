@@ -1,6 +1,7 @@
 /*
  *  This code is intended to be used in the distributed alarm system modules 
- *  Developer: Kjell Kernen
+ *  
+ *  Copyright 2020 Kjell Kernen
  *  
  *  The modules are built using ESP8266 controllers on Lolin D1 mini boards.
  *  
