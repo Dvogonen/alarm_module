@@ -51,8 +51,8 @@ def on_connect(client, userdata, flags, rc):
 class Message:
     def __init__(self):
         self.received = False
-        topic = ""
-        payload = ""
+        self.topic = ""
+        self.payload = ""
 
 
 message = Message()
@@ -82,9 +82,9 @@ client.connect(sys.argv[1], 1883, 60)  # HiveMQ cloud server
 
 # Start by turning off any alarms and dearm the system
 client.publish("alarm/armed", '0', 0, True)
-armed = False;
+armed = False
 client.publish("alarm/entry_alarm", '0', 0, True)
-entry_alarm = False;
+entry_alarm = False
 running = True
 
 while (running):
